@@ -1,13 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/jpg" href="/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emily & Eilean's Wedding</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">Home</a>
+                <a class="navbar-item" href="schedule.html">Schedule</a>
+                <a class="navbar-item" href="faq.html">FAQ</a>
+            </div>
+      
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="https://forms.gle/wmzqhFBjQLqCKfcL8" target="_blank"><strong>RSVP</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="columns is-vcentered">
+        <section id="homeHero" class="hero is-fullheight-with-navbar column is-half" aria-hidden="true"></section>
+        <section id="homeInfo" class="column">
+            <h1 class="title is-2">Emily & Eilean</h1>
+            <h2 class="subtitle is-4">Tie the Knot</h2>
+            <div class="content">
+                <p>Emily and Eilean invite you to celebrate their marriage with them this coming October at The Cloisters Castle.</p>
+                <p>Dinner will be provided following the ceremony.</p>
+                <p>Please RSVP with dinner entrée selection for you and your guest by <b>August 17 2024</b>. See our FAQ page for more information regarding attire, registry, addresses, etc.</p>
+                <blockquote>"A true love story never ends." <i>- Author Unknown</i></blockquote>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Copyright 2024
+            </p>
+        </div>
+    </footer>
   </body>
 </html>

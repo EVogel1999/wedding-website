@@ -1,0 +1,53 @@
+.is-primary {
+    background-color: #9F2B68 !important;
+}
+
+#homeHero {
+    background-image: url('assets/cloisters_castle.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#homeInfo {
+    text-align: center;
+    padding: 50px;
+}
+
+#homeInfo div.content {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#homeInfo blockquote {
+    margin-top: 50px;
+}
+
+#timelineInfo {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.timeline {
+    padding: 50px;
+}
+
+#faqInfo {
+    padding: 50px;
+}
+
+#faqInfo h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+    #homeHero {
+        display: none;
+    }
+}
+
+@media(max-width: 770px) {
+    #homeHero {
+        display: none;
+    }
+}
