@@ -2,15 +2,25 @@
 <html>
   <head>
     <title>Emily & Eilean's Wedding - FAQ</title>
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenuItems" onclick="toggleNavbar()">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenuItems" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item" href="index.html">Home</a>
                 <a class="navbar-item" href="schedule.html">Schedule</a>
@@ -28,7 +38,7 @@
     </nav>
 
     <!-- Content -->
-    <section id="faqInfo" class="columns">
+    <section id="faqInfo" class="columns is-desktop">
       <!-- Guests -->
       <div class="content column">
         <h1>Guests</h1>
@@ -107,7 +117,7 @@
       </div>
 
       <!-- Wedding Party -->
-      <div class="content column">
+      <!-- <div class="content column">
         <h1>Wedding Party</h1>
         <article class="message">
           <div class="message-header">
@@ -117,7 +127,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
           </div>
         </article>
-      </div>
+      </div> -->
     </section>
   </body>
 </html>

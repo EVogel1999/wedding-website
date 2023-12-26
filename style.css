@@ -39,16 +39,4 @@
 #faqInfo h1 {
     text-align: center;
 }
-
-@media only screen and (max-width: 770px) {
-    #homeHero {
-        display: none;
-    }
-}
-
-@media(max-width: 770px) {
-    #homeHero {
-        display: none;
-    }
-}
  
